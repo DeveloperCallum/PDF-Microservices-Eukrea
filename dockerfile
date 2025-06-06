@@ -6,7 +6,7 @@ RUN apk update && apk add --no-cache curl
 WORKDIR /app
 
 # Copy the JAR file into the container
-COPY ./target/*.jar app.jar
+COPY ./PDF-Microservices-Eukrea/target/*.jar app.jar
 
 # Expose the application port
 EXPOSE 8080
